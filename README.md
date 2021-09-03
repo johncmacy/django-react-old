@@ -1,4 +1,4 @@
-# django-basic
+# django-react
 
 ## About
 
