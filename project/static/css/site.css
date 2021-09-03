@@ -7,9 +7,3 @@ body {
     display: flex;
     gap: 1rem;
 }
-
-h1 {
-    font-family: 'Indie Flower', cursive;
-    font-size: 72px;
-    box-shadow: 0 0 black;
-}
