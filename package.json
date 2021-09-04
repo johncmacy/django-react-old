@@ -1,7 +1,7 @@
 {
-  "name": "django-react-spa",
+  "name": "django-react",
   "version": "1.0.0",
-  "description": "This is a basic Django project that includes:",
+  "description": "This is a basic Django/React template project",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/johncmacy/django-react-spa.git"
+    "url": "git+https://github.com/johncmacy/django-react.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/johncmacy/django-react-spa/issues"
+    "url": "https://github.com/johncmacy/django-react/issues"
   },
-  "homepage": "https://github.com/johncmacy/django-react-spa#readme",
+  "homepage": "https://github.com/johncmacy/django-react#readme",
   "devDependencies": {
     "@babel/core": "^7.15.4",
     "@babel/preset-env": "^7.15.4",
