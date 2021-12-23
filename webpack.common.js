@@ -1,7 +1,6 @@
-const path = require('path');
+const path = require('path')
 
 module.exports = {
-  mode: 'development',
   entry: './frontend/index.js',
   output: {
     filename: 'frontend-build.js',
@@ -20,14 +19,4 @@ module.exports = {
       }
     ]
   },
-  devServer: {
-    hot: true,
-    port: 8080,
-    proxy: {
-      '!/static/frontend/**': {
-        target: 'http://localhost:8000',
-        changeOrigin: true,
-      }
-    }
-  }
-};
+}
